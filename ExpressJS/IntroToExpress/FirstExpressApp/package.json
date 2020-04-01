@@ -1,0 +1,15 @@
+{
+  "name": "firstexpressapp",
+  "version": "1.0.0",
+  "description": "Simple Express App",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kaan Akdeniz",
+  "license": "ISC"
+}
