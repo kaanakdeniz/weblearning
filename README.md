@@ -4,12 +4,12 @@
 ### Day 1
   I've started to learn NodeJS and ExpressJS. I made my first EJS application and I did some routing exercises.
   
-  See the [ex-1](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day1%20-%20IntroToExpress/FirstExpressApp)
+  > See the [ex-1](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day1%20-%20IntroToExpress/FirstExpressApp)
   [ex-2](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day1%20-%20IntroToExpress/Routing%20Exercies)
   
 ### Day 2
    I've learned some next level EJS like views, partials, include and assests. I created post requests and tested them.
    
-  See the [ex-1](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day2%20-%20Intermediate%20Express/EJSDemo)
+  > See the [ex-1](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day2%20-%20Intermediate%20Express/EJSDemo)
   [ex-2](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day2%20-%20Intermediate%20Express/PostRequest)
     
