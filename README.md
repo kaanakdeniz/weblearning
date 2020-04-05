@@ -25,3 +25,8 @@ This project is about camping grounds all around the world. I am learning web de
 This day i started to project, created pages; camping ground showpage, camping ground add page, created routes; to get this pages and post function for adding new camping grounds. Some styling improvements with Bootstrap.
     
  > See the [SerenityCamp](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day4%20-%20SerenityCamp)
+
+### Day 5 - MongoDB/Mongoose - *05/04/2020*
+I installed mongoDB and learned how to use mongo shell. After that i installed mongoose package with npm and learned how to connect to mongoDB database on JS, did some exercises on CRUD transactions.
+
+> See the [Mongoose](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day5%20-%20Mongoose)
