@@ -18,10 +18,11 @@ I worked on some APIs in NodeJS, used request, request-promise packages for send
    
   > See the [Request Exercise](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day3%20-%20Working%20with%20APIs/First%20Exercise) , [JSON Placeholder API](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day3%20-%20Working%20with%20APIs/JSON%20Placeholder%20API) and [Movie Search App](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day3%20-%20Working%20with%20APIs/Movie%20Search%20App)  
 
-## Day 4 - *04/04/2020*
+### Day 4 - SerenityCamp - *04/04/2020*
 
-#### SerenityCamp 
-This project is about camping grounds all around the world. I am learning web development on [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/) from [Colt Steele](https://github.com/Colt) and doing this project with this course. This project will take a few days and i am using HTML5/CSS3/Bootstrap4 on front-end side, NodeJS/ExpressJS back-end side for now.
+#### Note about project!
+This project is about camping grounds all around the world. I am learning web development on [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/) from [Colt Steele](https://github.com/Colt) and doing this project with this course. This project will take a few days and i am using HTML5/CSS3/Bootstrap4 on front-end side, NodeJS/ExpressJS back-end side for now. 
+
 This day i started to project, created pages; camping ground showpage, camping ground add page, created routes; to get this pages and post function for adding new camping grounds. Some styling improvements with Bootstrap.
     
  > See the [SerenityCamp](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day4%20-%20SerenityCamp)
