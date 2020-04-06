@@ -30,3 +30,8 @@ This day i started to project, created pages; camping ground showpage, camping g
 I installed mongoDB and learned how to use mongo shell. After that i installed mongoose package with npm and learned how to connect to mongoDB database on JS, did some exercises on CRUD transactions.
 
 > See the [Mongoose](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day5%20-%20Mongoose)
+
+### Day 6 - SerenityCamp v2 - *06/04/2020*
+In first version of the project we was keeping of campground datas in the static array in js code. After the learning of mongoDB and Mongoose i switched the location of data. I'm using database now. After that i had to change the get and post functions to integrate database to my code. Finally i can create my campgrounds on the site and send into database and get the campground datas from database for showing in the pages.
+
+> See the [SerenityCamp v2](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day6%20-%20SerenityCamp%20v2)
