@@ -1,0 +1,25 @@
+<%- include("partials/header.ejs")  %>
+
+<div class="container">
+   <div class="row mt-3">
+      <div class=" col-sm-12 my-auto"></div>
+      <form action="/campgrounds" class="mx-auto mx-1" method="POST">
+         <h1>Create New Campground</h1>
+         <div class="form-group">
+            <input class="form-control" type="text" name="name" id="" placeholder="Name">
+         </div>
+         <div class="form-group">
+            <input class="form-control" type="text" name="image" id="" placeholder="Image Url">
+         </div>
+         <div class="form-group">
+            <input class="form-control" type="text" name="description" id="" placeholder="Description">
+         </div>
+         <div class="form-group">
+            <input class="btn btn-secondary btn-md btn-block" type="submit" value="Add">
+         </div>
+      </form>
+   </div>
+</div>
+
+
+<%- include("partials/footer.ejs")  %>
