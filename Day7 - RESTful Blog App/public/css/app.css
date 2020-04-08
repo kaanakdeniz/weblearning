@@ -1,0 +1,11 @@
+i.icon {
+   font-size: 2em;
+}
+
+.ui.menu {
+   border-radius: 0;
+}
+
+#delete {
+   display: inline;
+}
