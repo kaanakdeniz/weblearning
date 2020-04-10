@@ -35,7 +35,7 @@ I installed mongoDB and learned how to use mongo shell. After that i installed m
 ### Day 6 - SerenityCamp v2 - *06/04/2020*
 In first version of the project we was keeping of campground datas in the static array in js code. After the learning of mongoDB and Mongoose i switched the location of data. I'm using database now. After that i had to change the get and post functions to integrate database to my code. Finally i can create my campgrounds on the site and send into database and get the campground datas from database for showing in the pages.
 
-> See the [SerenityCamp v2]https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day%201-10/Day6%20-%20SerenityCamp%20v2)
+> See the [SerenityCamp v2](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day%201-10/Day6%20-%20SerenityCamp%20v2)
 
 ### Day 7 - RESTful Blog App - *07/04/2020*
 This project is basic blog app which can perform CRUD transactions with MongoDB and it uses [RESTful](https://restfulapi.net/) pattern. I learned how to override POST funtion to PUT or DELETE or something in expressJS with method-overried package, I learned another CSS framework [Semantic UI](https://semantic-ui.com/) and used in project. I did mongoDB works with moongoose package.
