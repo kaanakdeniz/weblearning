@@ -47,12 +47,17 @@ This little project is about how to represent [one-to-many](https://en.wikipedia
 
 > See the [Data Associations](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day%201-10/Day8%20-%20Data%20Associations)
 
-### Day 9 - Serenity Camp v3 - *09/04/2020*
+### Day 9 - SerenityCamp v3 - *09/04/2020*
 In this version I made a module named seedDB.js for loading default random data to database. I carried my user model to models directory and i will create another file for any model in this directory later. I separate views directory to different subdirectories like comments and users to differenciate same named pages like new etc. Then refactor the old code for new requirements.
 
-> See the [Serenity Camp v3](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day%201-10/Day9%20-%20SerenityCamp%20v3)
+> See the [SerenityCamp v3](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day%201-10/Day9%20-%20SerenityCamp%20v3)
 
 ### Day 10 - Authentication - *10/04/2020*
 This little project i used [passportJS](http://www.passportjs.org/) module for learn how to make authentication in expressJS and mongoDB. There is a basic pages; register, login and show page after success login. These information will be use for authentication in Serenity Camp project.
 
 > See the [Authentication](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day%201-10/Day10%20-Authentication)
+
+### Day 11 - SerenityCamp v4 - *11/04/2020*
+Yesterday i learned how to do authentication in expressJS with using passportJS. Today i add user authentication in the SerenityCamp project with these informations. After that i created some data assosications; user-comments and user-campgrounds. I did some refactoring on my code; create routes directory and carry all routes for separate files in this directory and clean app.js file.
+
+> See the [SerenityCamp v4](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day%2011-20/Day11%20-%20SerenityCamp%20v4)
