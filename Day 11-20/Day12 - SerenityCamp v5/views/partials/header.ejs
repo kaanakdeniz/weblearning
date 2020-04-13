@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SerenityCamp</title>
+
+   <link rel="stylesheet" href="/css/bootstrap.css">
+   <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+   <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+      <div class="container">
+         <a class="navbar-brand" href="/">SerenityCamp</a>
+         <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav navbar-right">
+               <% if(!currentUser){ %>
+               <li class="nav-item">
+                  <a class="nav-link" href="/login">Login</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/register">Sign Up</a>
+               </li>
+               <% }else{ %>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Signed in as <%= currentUser.username %> </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/logout">Logout</a>
+               </li>
+               <% } %>
+            </ul>
+         </div>
+   </nav>
