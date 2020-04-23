@@ -1,0 +1,26 @@
+<%- include("../partials/header.ejs")  %>
+
+<div class="container">
+   <div class="row mt-3">
+      <div class=" col-sm-12 my-auto"></div>
+      <form action="/campgrounds/<%= campground.id %>?_method=PUT" class="mx-auto mx-1 w-50 " method="POST">
+         <h1 class="text-center">Edit <%= campground.name %> </h1>
+         <div class="form-group">
+            <input class="form-control" type="text" name="campground[name]" id="" value="<%= campground.name %>">
+         </div>
+         <div class="form-group">
+            <input class="form-control" type="text" name="campground[image]" id="" value="<%= campground.image %>">
+         </div>
+         <div class="form-group">
+            <input class="form-control" type="text" name="campground[description]" id=""
+               value="<%= campground.description %>">
+         </div>
+         <div class="form-group">
+            <input class="btn btn-secondary btn-md btn-block" type="submit" value="Add">
+         </div>
+      </form>
+   </div>
+</div>
+
+
+<%- include("../partials/footer.ejs")  %>
