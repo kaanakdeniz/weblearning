@@ -26,6 +26,7 @@ This project is about camping grounds all around the world. I am learning web de
 This day i started to project, created pages; camping ground showpage, camping ground add page, created routes; to get this pages and post function for adding new camping grounds. Some styling improvements with Bootstrap.
     
  > See the [SerenityCamp](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day%201-10/Day4%20-%20SerenityCamp)
+ > [Click here](https://serenitycamp.herokuapp.com/) for see and try to app.
 
 ### Day 5 - MongoDB/Mongoose - *05/04/2020*
 I installed mongoDB and learned how to use mongo shell. After that i installed mongoose package with npm and learned how to connect to mongoDB database on JS, did some exercises on CRUD transactions.
@@ -61,3 +62,19 @@ This little project i used [passportJS](http://www.passportjs.org/) module for l
 Yesterday i learned how to do authentication in expressJS with using passportJS. Today i add user authentication in the SerenityCamp project with these informations. After that i created some data assosications; user-comments and user-campgrounds. I did some refactoring on my code; create routes directory and carry all routes for separate files in this directory and clean app.js file.
 
 > See the [SerenityCamp v4](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day%2011-20/Day11%20-%20SerenityCamp%20v4)
+
+### Day 12 - SerenityCamp v5 - *12/04/2020*
+I create RESTful routes for comments to edit,add and delete functions, so logged user can be write comment about campgrounds. In here HTML just supports POST and GET methods so i used method-override function to execute PUT and DELETE routes.
+
+> See the [SerenityCamp v5](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day%2011-20/Day12%20-%20SerenityCamp%20v5)
+
+### Day 13 - SerenityCamp v6 - *13/04/2020*
+There was a problem like any user can delete or edit comments and campgrounds which anyone create. System have to allow these for just who created. So i add authentication functions to this routes then on the HTML controls the buttons with ejs if statements.
+
+> See the [SerenityCamp v6](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day%2011-20/Day13%20-%20SerenityCamp%20v6)
+
+### Day 14 - SerenityCamp Final - *23/04/2020*
+After all of these, i improved ui of app. I added to bootstrap forms login and register views, i install [flash-messages](https://www.npmjs.com/package/flash-messages) module to show errors to users with nice looking. Development is finally finished. After that i deployed the app via [Heroku](https://www.heroku.com/) and i used [Clever Cloud](https://www.clever-cloud.com/) for using MongoDB database online. These sites provides free usage with small limits.
+
+> See the [SerenityCamp Final](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day%2011-20/Day14%20-%20SerenityCamp%20Final)
+and deployed app [SerenityCamp](https://serenitycamp.herokuapp.com/)
