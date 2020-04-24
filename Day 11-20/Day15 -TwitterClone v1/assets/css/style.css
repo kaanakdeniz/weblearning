@@ -1,0 +1,224 @@
+:root {
+   --t-blue: #1da1f2;
+   --grey: #73838f;
+   --t-blue-hover: rgb(26, 145, 218);
+   --border-color: rgb(56, 68, 77);
+   --hover-color: rgba(29, 161, 242, 0.1);
+   --blue-filter: invert(46%) sepia(72%) saturate(1203%) hue-rotate(176deg) brightness(99%) contrast(91%);
+}
+
+* {
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html,
+body {
+   margin: 0;
+   width: 100%;
+   height: 100%;
+   overflow-y: hidden;
+   box-sizing: border-box;
+   background-color: #15202b;
+   font-family: "Consolas" !important;
+}
+
+.down {
+   width: 15rem;
+   border-radius: 50px;
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+}
+
+.down:hover {
+   background-color: var(--hover-color);
+}
+
+.username {
+   color: var(--grey);
+   line-height: 0.7rem;
+   letter-spacing: -0.2px;
+}
+
+.profile-image {
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+}
+
+.left-side {
+   border-right: 1px solid var(--border-color);
+   margin-right: 8rem;
+}
+
+.sidebar {
+   margin-left: -3.5rem;
+   margin-right: 3rem;
+   height: 100vh;
+}
+
+.list-group {
+   font-size: 20px;
+   padding-top: 0px;
+}
+
+.list-group-item {
+   border: none;
+   color: white;
+   width: fit-content;
+   border-radius: 25px;
+   padding-top: 0.4rem;
+   padding-bottom: 0.4rem;
+   background-color: transparent;
+   transition: color 0.2s, background-color 0.2s;
+}
+
+.list-group-item:hover {
+   color: var(--t-blue);
+   background-color: rgba(29, 161, 242, 0.1);
+}
+
+.list-group-item:focus:not(:hover) {
+   color: var(--t-blue);
+   background-color: transparent;
+}
+
+.list-group-item:hover>.icon-n {
+   filter: var(--blue-filter);
+}
+
+.list-group-item:focus:not(:hover)>.icon-n {
+   filter: var(--blue-filter);
+}
+
+.list-group-item:first-child {
+   padding: 0.5rem;
+   border-radius: 75%;
+   margin-left: 0.7rem;
+}
+
+.list-group-item:last-child {
+   width: 13rem;
+   height: 3rem;
+   color: white;
+   font-size: 15px;
+   text-align: center;
+   border-radius: 25px;
+   padding-top: 0.7rem;
+   margin-left: 0.4rem;
+   margin-top: 0.7rem !important;
+   background-color: var(--t-blue) !important;
+}
+
+.list-group-item:last-child:hover,
+.list-group-item:last-child:focus {
+   color: white !important;
+   background-color: var(--t-blue-hover) !important;
+}
+
+.icon {
+   margin-right: 1.2rem;
+   margin-bottom: 0.3rem;
+   display: inline-block;
+   background-size: cover;
+   vertical-align: middle;
+}
+
+.icon-n {
+   width: 26px;
+   height: 26px;
+}
+
+.icon-b {
+   margin: 0;
+   padding: 0;
+   width: 30px;
+   height: 30px;
+}
+
+.icon-s {
+   width: 18px;
+   height: 18px;
+   margin-top: 0.7rem;
+}
+
+.icon-bird {
+   background-image: url(/icon/sidebar/bird.svg);
+}
+
+.icon-home {
+   transition: none;
+   background-image: url(/icon/sidebar/home.svg);
+}
+
+.list-group-item:focus>.icon-home {
+   background-image: url(/icon/sidebar/home-fill.svg);
+}
+
+.icon-list {
+   transition: none;
+   background-image: url(/icon/sidebar/list.svg);
+
+}
+
+.list-group-item:focus>.icon-list {
+   background-image: url(/icon/sidebar/list-fill.svg);
+}
+
+.icon-more {
+   transition: none;
+   background-image: url(/icon/sidebar/more.svg);
+}
+
+.icon-search {
+   transition: none;
+   background-image: url(/icon/sidebar/search.svg);
+}
+
+.icon-message {
+   transition: none;
+   background-image: url(/icon/sidebar/message.svg);
+}
+
+.list-group-item:focus>.icon-message {
+   background-image: url(/icon/sidebar/message-fill.svg);
+}
+
+.icon-profile {
+   transition: none;
+   background-image: url(/icon/sidebar/profile.svg);
+}
+
+.list-group-item:focus>.icon-profile {
+   background-image: url(/icon/sidebar/profile-fill.svg);
+}
+
+.icon-bookmark {
+   transition: none;
+   background-image: url(/icon/sidebar/bookmark.svg);
+}
+
+.list-group-item:focus>.icon-bookmark {
+   background-image: url(/icon/sidebar/bookmark-fill.svg);
+}
+
+.icon-explore {
+   transition: none;
+   background-image: url(/icon/sidebar/explore.svg);
+}
+
+.list-group-item:focus>.icon-explore {
+   background-image: url(/icon/sidebar/explore-fill.svg);
+}
+
+.icon-notification {
+   transition: none;
+   background-image: url(/icon/sidebar/notification.svg);
+}
+
+.list-group-item:focus>.icon-notification {
+   background-image: url(/icon/sidebar/notification-fill.svg);
+}
+
+.icon-downarrow {
+   background-image: url(/icon/sidebar/down-arrow.svg);
+}
