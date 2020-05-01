@@ -85,11 +85,11 @@ I want to learn improve my css skills so i decided to make a clone of Twitter wi
 
 > See the [TwitterClone v1](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day%2011-20/Day15%20-%20TwitterClone%20v1)
 
-> See the deployed site [Twitter Clone] (https://twitterclonev1.netlify.app/#)
+> See the deployed site [Twitter Clone](https://twitterclonev1.netlify.app/#)
 
 ### Day 16 - TwitterClone Final - *01/05/2020*
 I learned CSS Grid and Flexbox in advance. After that i started to create layout first. After that i started to create styling of page and it takes almost 800 lines of CSS code. Site is not responsive but thats enough for this. I'll improve my responsive css skills on my next project. Twitter has a lot of big and little feature so I dont want to struggle with it anymore.
 
 > See the [TwitterClone Final](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day%2011-20/Day16%20-%20TwitterClone%20Final)
 
-> See the deployed site [Twitter Clone Final] (https://twitterclonefinal.netlify.app/#)
+> See the deployed site [Twitter Clone Final](https://twitterclonefinal.netlify.app/#)
