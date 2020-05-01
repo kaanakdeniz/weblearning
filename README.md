@@ -81,7 +81,7 @@ After all of these, i improved ui of app. I added to bootstrap forms login and r
 and deployed app [SerenityCamp](https://serenitycamp.herokuapp.com/)
 
 ### Day 15 - TwitterClone v1 - *28/04/2020*
-I want to learn improve my css skills so i decided to make a clone of Twitter with Boostrap4 i made aside menu but i have to a lot of override to Boostrap so i decided to learn CSS Grid and Flex in advance and make the site with Vanilla CSS.
+I want to improve my css skills so i decided to make a clone of Twitter with Boostrap4 i made aside menu but i have to a lot of override to Boostrap so i decided to learn CSS Grid and Flex in advance and make the site with Vanilla CSS.
 
 > See the [TwitterClone v1](https://github.com/kaanakdeniz/100DaysOfCode/tree/master/Day%2011-20/Day15%20-%20TwitterClone%20v1)
 
