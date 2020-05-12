@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="menu">
+        <div class="aside">
+          <li class="list">
+            <a class="menu-item" href="#">
+              <div class="icon-n icon-bird"></div>
+            </a>
+            <a class="menu-item" href="#">
+              <div class="icon-m icon-home"></div>
+              <p>Anasayfa</p>
+            </a>
+            <a class="menu-item" href="#">
+              <div class="icon-m icon-explore"></div>
+              <p>Keşfet</p>
+            </a>
+            <a class="menu-item" href="#">
+              <div class="icon-m icon-notification"></div>
+              <p>Bildirimler</p>
+            </a>
+            <a class="menu-item" href="#">
+              <div class="icon-m icon-message"></div>
+              <p>Mesajlar</p>
+            </a>
+            <a class="menu-item" href="#">
+              <div class="icon-m icon-bookmark"></div>
+              <p>Yer İşaretleri</p>
+            </a>
+            <a class="menu-item" href="#">
+              <div class="icon-m icon-list"></div>
+              <p>Listeler</p>
+            </a>
+            <a class="menu-item" href="#">
+              <div class="icon-m icon-profile"></div>
+              <p>Profil</p>
+            </a>
+            <a class="menu-item last" a href="#">
+              <div class="inline-menu">
+                <div class="inline-item">
+                  <div class="icon-s icon-text-bubble"></div>
+                  <div class="inline-item-text">Konular</div>
+                </div>
+                <div class="inline-item">
+                  <div class="icon-s icon-lightning"></div>
+                  <div class="inline-item-text">Anılar</div>
+                </div>
+                <div class="inline-item">
+                  <div class="icon-s icon-cross-arrow"></div>
+                  <div class="inline-item-text">Twitter Reklamları</div>
+                </div>
+                <div class="inline-item">
+                  <div class="icon-s icon-three-line"></div>
+                  <div class="inline-item-text">İstatistikler</div>
+                </div>
+                <hr class="inline-menu-hr" />
+                <div class="inline-item">
+                  <div class="icon-s icon-settings"></div>
+                  <div class="inline-item-text">Ayarlar ve Gizlilik</div>
+                </div>
+                <div class="inline-item">
+                  <div class="icon-s icon-question"></div>
+                  <div class="inline-item-text">Yardım Merkezi</div>
+                </div>
+                <div class="inline-item">
+                  <div class="icon-s icon-palette-body"></div>
+                  <div class="inline-item-text">Ekran</div>
+                </div>
+              </div>
+              <div class="icon-m icon-more"></div>
+              <p>Daha fazla</p>
+            </a>
+            <a class="tweet-btn" href="#">
+              Tweetle
+            </a>
+          </li>
+        </div>
+
+        <a href="#" class="profile">
+          <div class="profile-box">
+            <div class="inline-profile">
+              <div class="write-photo"></div>
+              <div class="profile-info">
+                <p>Kaan</p>
+                <div class="profile-username">@kaanakdenz</div>
+              </div>
+            </div>
+            <div class="inline-sec">Var olan bir hesap ekle</div>
+            <div class="inline-sec">@kaanakdenz hesabından çıkış yap</div>
+          </div>
+          <div class="profile-photo"></div>
+          <div class="profile-info">
+            <p>Kaan</p>
+            <div class="profile-username">@kaanakdenz</div>
+          </div>
+          <div class="icon-s icon-downarrow profile-icon"></div>
+        </a>
+      </div>
+
+      <div class="header">
+        <p class="header-text">Anasayfa</p>
+        <a class="menu-item" href="">
+          <div class="icon-sn icon-star"></div>
+        </a>
+      </div>
+
+      <div class="tweet-section">
+        <div class="write">
+          <div class="write-photo"></div>
+          <textarea class="write-content" placeholder="Neler oluyor?" rows="1"></textarea>
+          <div class="write-footer">
+            <div class="write-f-icongroup">
+              <a class="menu-item" href="#">
+                <div class="icon-sn icon-image"></div>
+              </a>
+              <a class="menu-item" href="#">
+                <div class="icon-sn icon-gif"></div>
+              </a>
+              <a class="menu-item" href="#">
+                <div class="icon-sn icon-anket"></div>
+              </a>
+              <a class="menu-item" href="#">
+                <div class="icon-sn icon-smiley"></div>
+              </a>
+            </div>
+            <a href="#" class="tweet-button">
+              Tweetle
+            </a>
+          </div>
+        </div>
+        <div class="tweet">
+          <div class="tweet-photo write-photo"></div>
+          <div class="tweet-content">
+            <div class="tweet-header">
+              <div class="username">
+                <p>Kaan Akdeniz</p>
+                <span>@kaanakdenz · 30d</span>
+              </div>
+              <div class="tweet-icon">
+                <div class="icon-xs icon-downarrow"></div>
+              </div>
+            </div>
+            <div class="context">
+              <p class="context-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus ducimus exercitationem eum nesciunt distinctio ex iste. Molestiae pariatur nulla voluptate!</p>
+            </div>
+          </div>
+          <div class="tweet-footer">
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-answer"></div>
+              </a>
+              <span class="footer-info">5</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-retweet"></div>
+              </a>
+              <span class="footer-info">10</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-like"></div>
+              </a>
+              <span class="footer-info">15</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-tw-options"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tweet">
+          <div class="icon-xs icon-retweet type-icon"></div>
+          <div class="tweet-path">
+            <div class="tweet-type">Kaan Akdeniz Retweetledi</div>
+          </div>
+          <div class="tweet-photo write-photo"></div>
+          <div class="tweet-content">
+            <div class="tweet-header">
+              <div class="username">
+                <p>Kaan Akdeniz</p>
+                <span>@kaanakdenz · 30d</span>
+              </div>
+              <div class="tweet-icon">
+                <div class="icon-xs icon-downarrow"></div>
+              </div>
+            </div>
+            <div class="context">
+              <p class="context-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, nihil.</p>
+              <div class="context-image"></div>
+            </div>
+          </div>
+          <div class="tweet-footer">
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-answer"></div>
+              </a>
+              <span class="footer-info">5</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-retweet"></div>
+              </a>
+              <span class="footer-info">10</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-like"></div>
+              </a>
+              <span class="footer-info">15</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-tw-options"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tweet">
+          <div class="icon-xs icon-retweet type-icon"></div>
+          <div class="tweet-path">
+            <div class="tweet-type">Kaan Akdeniz retweetledi</div>
+          </div>
+          <div class="tweet-photo write-photo"></div>
+          <div class="tweet-content">
+            <div class="tweet-header">
+              <div class="username">
+                <p>Kaan Akdeniz</p>
+                <span>@kaanakdenz · 30d</span>
+              </div>
+              <div class="tweet-icon">
+                <div class="icon-xs icon-downarrow"></div>
+              </div>
+            </div>
+            <div class="context">
+              <p class="context-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus architecto temporibus quia quos enim dolores molestiae unde excepturi at omnis quae eos sequi nam explicabo eum, quam in
+                aperiam odit.
+              </p>
+            </div>
+          </div>
+          <div class="tweet-footer">
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-answer"></div>
+              </a>
+              <span class="footer-info">5</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-retweet"></div>
+              </a>
+              <span class="footer-info">10</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-like"></div>
+              </a>
+              <span class="footer-info">15</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-tw-options"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tweet">
+          <div class="icon-xs icon-retweet type-icon"></div>
+          <div class="tweet-path">
+            <div class="tweet-type">Kaan Akdeniz retweetledi</div>
+          </div>
+          <div class="tweet-photo write-photo"></div>
+          <div class="tweet-content">
+            <div class="tweet-header">
+              <div class="username">
+                <p>Kaan Akdeniz</p>
+                <span>@kaanakdenz · 30d</span>
+              </div>
+              <div class="tweet-icon">
+                <div class="icon-xs icon-downarrow"></div>
+              </div>
+            </div>
+            <div class="context">
+              <p class="context-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus architecto temporibus quia quos enim dolores molestiae unde excepturi at omnis quae eos sequi nam explicabo eum, quam in
+                aperiam odit.
+              </p>
+            </div>
+          </div>
+          <div class="tweet-footer">
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-answer"></div>
+              </a>
+              <span class="footer-info">5</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-retweet"></div>
+              </a>
+              <span class="footer-info">10</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-like"></div>
+              </a>
+              <span class="footer-info">15</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-tw-options"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tweet">
+          <div class="icon-xs icon-retweet type-icon"></div>
+          <div class="tweet-path">
+            <div class="tweet-type">Kaan Akdeniz retweetledi</div>
+          </div>
+          <div class="tweet-photo write-photo"></div>
+          <div class="tweet-content">
+            <div class="tweet-header">
+              <div class="username">
+                <p>Kaan Akdeniz</p>
+                <span>@kaanakdenz · 30d</span>
+              </div>
+              <div class="tweet-icon">
+                <div class="icon-xs icon-downarrow"></div>
+              </div>
+            </div>
+            <div class="context">
+              <p class="context-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus architecto temporibus quia quos enim dolores molestiae unde excepturi at omnis quae eos sequi nam explicabo eum, quam in
+                aperiam odit.
+              </p>
+            </div>
+          </div>
+          <div class="tweet-footer">
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-answer"></div>
+              </a>
+              <span class="footer-info">5</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-retweet"></div>
+              </a>
+              <span class="footer-info">10</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-like"></div>
+              </a>
+              <span class="footer-info">15</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-tw-options"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tweet">
+          <div class="icon-xs icon-retweet type-icon"></div>
+          <div class="tweet-path">
+            <div class="tweet-type">Kaan Akdeniz retweetledi</div>
+          </div>
+          <div class="tweet-photo write-photo"></div>
+          <div class="tweet-content">
+            <div class="tweet-header">
+              <div class="username">
+                <p>Kaan Akdeniz</p>
+                <span>@kaanakdenz · 30d</span>
+              </div>
+              <div class="tweet-icon">
+                <div class="icon-xs icon-downarrow"></div>
+              </div>
+            </div>
+            <div class="context">
+              <p class="context-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus architecto temporibus quia quos enim dolores molestiae unde excepturi at omnis quae eos sequi nam explicabo eum, quam in
+                aperiam odit.
+              </p>
+            </div>
+          </div>
+          <div class="tweet-footer">
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-answer"></div>
+              </a>
+              <span class="footer-info">5</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-retweet"></div>
+              </a>
+              <span class="footer-info">10</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-like"></div>
+              </a>
+              <span class="footer-info">15</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-tw-options"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tweet">
+          <div class="icon-xs icon-retweet type-icon"></div>
+          <div class="tweet-path">
+            <div class="tweet-type">Kaan Akdeniz retweetledi</div>
+          </div>
+          <div class="tweet-photo write-photo"></div>
+          <div class="tweet-content">
+            <div class="tweet-header">
+              <div class="username">
+                <p>Kaan Akdeniz</p>
+                <span>@kaanakdenz · 30d</span>
+              </div>
+              <div class="tweet-icon">
+                <div class="icon-xs icon-downarrow"></div>
+              </div>
+            </div>
+            <div class="context">
+              <p class="context-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus architecto temporibus quia quos enim dolores molestiae unde excepturi at omnis quae eos sequi nam explicabo eum, quam in
+                aperiam odit.
+              </p>
+            </div>
+          </div>
+          <div class="tweet-footer">
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-answer"></div>
+              </a>
+              <span class="footer-info">5</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-retweet"></div>
+              </a>
+              <span class="footer-info">10</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-like"></div>
+              </a>
+              <span class="footer-info">15</span>
+            </div>
+            <div class="footer-icon-group">
+              <a class="footer-icon">
+                <div class="icon-s icon-tw-options"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="agenda">
+        <div class="search">
+          <div class="icon-sn icon-search"></div>
+          <input autocomplete="off" type="text" name="search" placeholder="Twitter'da Ara" id="" />
+          <div class="search-menu">
+            <div class="search-menu-header">
+              <h3>En yeni</h3>
+              <a href="#" class="clear">
+                Tümünü temizle
+              </a>
+            </div>
+            <div class="search-person">
+              <div class="profile-photo"></div>
+              <div class="profile-info">
+                <p>Kaan</p>
+                <div class="profile-username">@kaanakdenz</div>
+              </div>
+              <div class="icon-s icon-downarrow profile-icon"></div>
+            </div>
+            <div class="search-person">
+              <div class="profile-photo"></div>
+              <div class="profile-info">
+                <p>Kaan</p>
+                <div class="profile-username">@kaanakdenz</div>
+              </div>
+              <div class="icon-s icon-downarrow profile-icon"></div>
+            </div>
+            <div class="search-person">
+              <div class="profile-photo"></div>
+              <div class="profile-info">
+                <p>Kaan</p>
+                <div class="profile-username">@kaanakdenz</div>
+              </div>
+              <div class="icon-s icon-downarrow profile-icon"></div>
+            </div>
+            <div class="search-person">
+              <div class="profile-photo"></div>
+              <div class="profile-info">
+                <p>Kaan</p>
+                <div class="profile-username">@kaanakdenz</div>
+              </div>
+              <div class="icon-s icon-downarrow profile-icon"></div>
+            </div>
+            <div class="search-person">
+              <div class="profile-photo"></div>
+              <div class="profile-info">
+                <p>Kaan</p>
+                <div class="profile-username">@kaanakdenz</div>
+              </div>
+              <div class="icon-s icon-downarrow profile-icon"></div>
+            </div>
+            <div class="search-person">
+              <div class="profile-photo"></div>
+              <div class="profile-info">
+                <p>Kaan</p>
+                <div class="profile-username">@kaanakdenz</div>
+              </div>
+              <div class="icon-s icon-downarrow profile-icon"></div>
+            </div>
+            <div class="search-person">
+              <div class="profile-photo"></div>
+              <div class="profile-info">
+                <p>Kaan</p>
+                <div class="profile-username">@kaanakdenz</div>
+              </div>
+              <div class="icon-s icon-downarrow profile-icon"></div>
+            </div>
+            <div class="search-person">
+              <div class="profile-photo"></div>
+              <div class="profile-info">
+                <p>Kaan</p>
+                <div class="profile-username">@kaanakdenz</div>
+              </div>
+              <div class="icon-s icon-downarrow profile-icon"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="agenda-list">
+          <div class="agenda-list-header">
+            <p>İlgini çekebilecek gündemler</p>
+            <a href="#" class="menu-item">
+              <div class="icon-sn icon-option"></div>
+            </a>
+          </div>
+          <div class="list-item">
+            <div class="agenda-list-item">
+              <div class="list-item-content">
+                <p>Türkiye tarihinde gündemde</p>
+                <h3>#Hashtag</h3>
+                <h4>123 Tweet</h4>
+              </div>
+              <div class="icon-s icon-downarrow"></div>
+            </div>
+            <div class="agenda-list-item">
+              <div class="list-item-content">
+                <p>Türkiye tarihinde gündemde</p>
+                <h3>#Hashtag</h3>
+                <h4>123 Tweet</h4>
+              </div>
+              <div class="icon-s icon-downarrow"></div>
+            </div>
+            <div class="agenda-list-item">
+              <div class="list-item-content">
+                <p>Türkiye tarihinde gündemde</p>
+                <h3>#Hashtag</h3>
+                <h4>123 Tweet</h4>
+              </div>
+              <div class="icon-s icon-downarrow"></div>
+            </div>
+            <div class="agenda-list-item">
+              <div class="list-item-content">
+                <p>Türkiye tarihinde gündemde</p>
+                <h3>#Hashtag</h3>
+                <h4>123 Tweet</h4>
+              </div>
+              <div class="icon-s icon-downarrow"></div>
+            </div>
+          </div>
+          <div class="agenda-footer">Daha fazla göster</div>
+        </div>
+
+        <div class="follow">
+          <p class="follow-list-header">Kimi takip etmeli</p>
+          <div class="follow-list-item">
+            <div class="tweet-photo write-photo"></div>
+            <div class="people-info">
+              <p>Kaan</p>
+              <div class="profile-username">@kaanakdenz</div>
+            </div>
+            <div class="follow-button">Takip Et</div>
+          </div>
+          <div class="follow-list-item">
+            <div class="tweet-photo write-photo"></div>
+            <div class="people-info">
+              <p>Kaan</p>
+              <div class="profile-username">@kaanakdenz</div>
+            </div>
+            <div class="follow-button">Takip Et</div>
+          </div>
+          <div class="follow-list-item">
+            <div class="tweet-photo write-photo"></div>
+            <div class="people-info">
+              <p>Kaan</p>
+              <div class="profile-username">@kaanakdenz</div>
+            </div>
+            <div class="follow-button">Takip Et</div>
+          </div>
+          <div class="follow-list-item">
+            <div class="tweet-photo write-photo"></div>
+            <div class="people-info">
+              <p>Kaan</p>
+              <div class="profile-username">@kaanakdenz</div>
+            </div>
+            <div class="follow-button">Takip Et</div>
+          </div>
+          <div class="agenda-footer">Daha fazla göster</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
