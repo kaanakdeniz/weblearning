@@ -1,5 +1,5 @@
-# 100DaysOfCode Challenge
-## Code at least one hour a day, share repos, and repeat the next day for 100 days.
+# Learning Diary
+
 
 ### Day 1 - Introduction to ExpressJS - *01/04/2020*
 I've started to learn NodeJS and ExpressJS. I made my first EJS application and I did some routing exercises.
